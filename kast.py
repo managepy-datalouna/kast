@@ -65,7 +65,3 @@ class Kast:
             kast[player] = round(value / len(self.rounds) * 100, 1)
 
         return kast
-
-
-if __name__ == "__main__":
-    print(Kast.get_kast('nip-vs-astralis-inferno.dem'))
